@@ -1,0 +1,15 @@
+[package]
+name = "libpci-sys"
+version = "0.1.0"
+authors = ["Jeremy Soller <jeremy@system76.com>"]
+license = "MIT"
+description = "libpci bindings"
+documentation = "https://docs.rs/libpci-sys"
+homepage = "https://github.com/system76/libpci-sys"
+keywords = ["pci", "libpci"]
+
+
+[build-dependencies]
+bindgen = "0.36"
+
+[dependencies]
